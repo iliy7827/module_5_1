@@ -1,3 +1,4 @@
+# атрибуты и методы
 class House:       # создаем класс
     def __init__(self, name, number_of_floors): # создаем метод внутри класса с атрибутами name, number_of_floors
         self.name = name                        # указываем на объект через self
