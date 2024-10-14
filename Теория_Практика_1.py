@@ -1,5 +1,8 @@
 class Human:
 # __init__ конструктор
+
+    head = True
+
     def __init__(self, name, age):  #__init__ конструктор для создания объекта класса
         self.name = name            # в нашем случае есть два объекта den и max
         self.age = age
@@ -39,7 +42,7 @@ den = Human('Денис', 23) #Имя den ведет на объект клас�
 max = Human('Максим',34)
 a = 6
 print(max)
-
+print(Human.head)
 #if den:
 #    den.say_info()
 #print(len(den))
